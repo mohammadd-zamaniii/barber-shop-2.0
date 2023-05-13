@@ -13,9 +13,8 @@
     direction: rtl;
 }
 
-
 .offers{
-    background-color: #281732;
+    background-color: #f7e6df;
 }
 
 .lh-1{
@@ -28,7 +27,7 @@
 
 .underline{
     width: 150px;
-    border: 3px solid #eee;
+    border: 3px solid #734691;
     margin: auto;
 }
 .underline-dark {
@@ -71,7 +70,7 @@ header{
 
 
 .banner-heading {
-    color: #8a6d46;
+    color: #fff;
     animation-name: anim;
     animation-duration: 2s;
 }
@@ -88,14 +87,14 @@ header{
 }
 
 .nav-menu{
-    background: linear-gradient(rgba(138, 109, 70,.3), rgba(138, 109, 70,.5));
+    background: #f7e6df;
     padding: 30px !important;
     transition: all .7s;
 }
 
 .menu-item{
     font-size: 17px;
-    color: #eee;
+    color: #734691;
     transition: color   .5s;
 }
 
@@ -124,13 +123,13 @@ header{
 
 .custom-navbar{
     padding: 5px 30px !important;
-    background: linear-gradient(rgba(138, 109, 70,.6), rgba(138, 109, 70,.7));
+    background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.7));
 }
 
 
 
 .awards{
-    background-color: #281732;
+    background-color: #f7e6df;
 }
 
 .award-img{
@@ -185,7 +184,7 @@ header{
     bottom: 50px;
     left: 0px;
     font-size: 25px;
-    background-color: #8a6d46;
+    background-color: #f7e6df;
     width: 60%;
     cursor: pointer;
     opacity: .8;
@@ -193,7 +192,7 @@ header{
 }
 
 .our-blugs{
-    background-color: #281732;
+    background-color: #f7e6df;
 }
 
 .heading:hover{
@@ -201,18 +200,12 @@ header{
     opacity: 1;
 }
 
-.gallery-list-item {
-    color: #777;
-    cursor: pointer;
-    user-select: none;
-}
-
 .active-item{
     color: #70aed2;
 }
 
 .trainers{
-    background-color: #281732;
+    background-color: #f7e6df;
 }
 
 .card-1 , .card-2 , .card-3{
@@ -235,7 +228,7 @@ header{
 }
 
 .membership-card-button{
-    background-color: #8a6d46 !important;
+    background-color: #734691 !important;
     width: 130px;
     border-radius: 25px !important;
     box-shadow: 5px 8px 18px #000;
@@ -244,7 +237,7 @@ header{
 }
 
 .membership-card-button:hover{
-    background-color: #8a6d46 !important;
+    background-color: #734691 !important;
     transform: translateY(-2px);
     box-shadow: 5px 8px 10px rgb(47, 47, 47);
     opacity: 1;
@@ -298,19 +291,24 @@ header{
 }
 
 .contact{
-    background: linear-gradient(295deg, rgba(138, 109, 70,.8) 0%,rgba(138, 109, 70,.9) 50%,transparent 50%) , url('./images/pic1.jpeg');
+    background: linear-gradient(295deg, rgba(255, 255, 255, .5) 0%,rgba(255, 255, 255, 0.6) 50%,transparent 50%) , url('./images/pic1.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     
 }
+
+.bg-purple{
+    background-color: #734691 !important;
+}
+
 .input{
     background: transparent !important;
     border: none !important;
     border-color: transparent !important;
     border-radius: 0px !important;
-    color: #fff !important;
-    border-bottom: 2px solid #ccc !important;
+    color: #734691 !important;
+    border-bottom: 2px solid #734691 !important;
     transition: all .8s !important;
 }
   
@@ -319,7 +317,7 @@ header{
     border: none !important;
     border-color: transparent !important;
     box-shadow: none !important;
-    border-bottom: 2px solid #fff !important;
+    border-bottom: 2px solid #734691 !important;
 }
   
 
@@ -381,16 +379,21 @@ header{
 }
 
 .footer{
-    background-color: #281732;
+    background-color: #f7e6df;
 }
 
 
 .footer-link{
-    color: #eee;
+    color: #734691;
     font-size: 13px;
     transition: all .3s;
 }
 .footer-link:hover{
     color: #70adb2;
     text-decoration: none;
+}
+
+
+.styles-title{
+    color: #734691;
 }
